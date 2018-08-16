@@ -11,6 +11,10 @@ shell> go get golang.org/dl/go1.11rc1
 shell> go1.11rc1 download
 ```
 
+Or download the tarball with prebuilt `go` binary included, then configure your `$PATH` appropriately. 
+
+If https://golang.org/dl/ is not accessible for you, try downloading from [this mirror page](https://mirrors.ustc.edu.cn/golang/).
+
 
 # How `<proj-root>/go.mod` was generated and updated at the very beginning
 
