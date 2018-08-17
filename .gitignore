@@ -1,3 +1,5 @@
+main
+
 *.so
 *.a
 *.exe
@@ -91,9 +93,6 @@ frontend/bin
 docs
 docs/*
 
-# database data
-database/all_data*.sql
-
 # General asymmetric key files
 *.pem
 
@@ -122,14 +121,9 @@ out/*
 */gradlew.bat
 *.classpath
 *.project
-*/catalina.base_IS_UNDEFINED
-*/catalina.base_IS_UNDEFINED/*
 
 # Specific db dump filename.
 all.sql
 all_test-*.sql
 *.sqlite
 *~
-
-# testData
-frontend/player/scenes/tradeListTmpData.js 

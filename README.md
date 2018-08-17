@@ -11,9 +11,35 @@ shell> go get golang.org/dl/go1.11rc1
 shell> go1.11rc1 download
 ```
 
-Or download the tarball with prebuilt `go` binary included, then configure your `$PATH` appropriately. 
+Or download the tarball with prebuilt `go` binary included, then configure the environment-variable `$PATH` appropriately, e.g. 
+
+```
+# The path of this file is usually "~/.bash_profile".
+
+export GOROOT=$HOME/go1.11rc1.linux-amd64/go
+export PATH=$PATH:$GOROOT/bin
+```
+
+for a bash-shell or
+
+```
+# The path of this file is "$PROFILE".
+
+$env:GOROOT="$env:USERPROFILE\go1.11rc1.windows-amd64\go"
+$env:PATH="$env:PATH;$env:GOROOT\bin"
+```
+
+for a powershell. 
 
 If https://golang.org/dl/ is not accessible for you, try downloading from [this mirror page](https://mirrors.ustc.edu.cn/golang/).
+
+
+# Getting started with the offline guides
+
+## The interactive guide `A Tour of Go`
+```
+shell> go tool tour
+```
 
 
 # How `<proj-root>/go.mod` was generated and updated at the very beginning
