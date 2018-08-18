@@ -5,7 +5,7 @@ You're reading `<proj-root>/README.md`.
 
 # Installing the binary `go` at version `1.11rc1`
 
-Download the tarball `go1.11rc1.<os>-<arch>.tar.gz`, e.g. `go1.11rc1.linux-amd64.tar.gz`, from https://golang.org/dl/ (if not acceesible for you, try [this mirror page](https://mirrors.ustc.edu.cn/golang/) instead) with prebuilt `go` binary included, then untar it to `$HOME(bash-shell)/$env:USERPROFILE(powershell)` and configure the environment-variables `$GOROOT`, `$PATH` and `$GOPATH` appropriately, e.g. 
+Download the tarball `go1.11rc1.<os>-<arch>.tar.gz`, e.g. `go1.11rc1.linux-amd64.tar.gz`, from https://golang.org/dl/ (if not accessible for you, try [this mirror page](https://mirrors.ustc.edu.cn/golang/) instead) with prebuilt `go` binary included, then untar it as `"$HOME/go1.11rc1.linux-amd64/"(bash-shell)` or `"$env:USERPROFILE\go1.11rc1.windows-amd64\"(powershell)`, and configure the environment-variables `$GOROOT`, `$PATH` and `$GOPATH` appropriately, e.g. 
 
 ```
 # The path of this file is usually "$HOME/.bash_profile".
