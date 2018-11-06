@@ -1,4 +1,8 @@
 main
+server
+
+*.log
+*.pid
 
 *.so
 *.a

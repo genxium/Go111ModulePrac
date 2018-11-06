@@ -67,9 +67,29 @@ proj-root> go get github.com/kardianos/vtest
 
 # Building & running
 ```
-proj-root> go build main.go
-proj-root> ./main
+proj-root> make build 
+proj-root> ./start_daemon TEST 
 ```
+or
+
+```
+proj-root> make build-prod 
+proj-root> ./start_daemon PROD 
+```
+
+or
+
+```
+proj-root> make run-test 
+```
+
+or 
+
+```
+proj-root> make run-prod 
+```
+
+then visit `http://localhost:8080/v3/test-api?a=3&b=4` for verification.
 
 
 # Reference 
